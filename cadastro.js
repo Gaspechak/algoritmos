@@ -31,6 +31,7 @@ const menuPrincipal = function () {
     opcaoSelecionada = prompt()
 }
 
+//Função responsável por executar o cadastro de pessoa
 const cadastrarPessoa = function () {
     const listaPessoa = JSON.parse(fs.readFileSync("Pessoas.json"))
 
